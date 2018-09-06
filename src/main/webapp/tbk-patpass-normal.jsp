@@ -74,8 +74,7 @@
                     .setCardHolderLastName2("Perez")
                     .setCardHolderMail("example@example.com")
                     .setCellPhoneNumber("1234567")
-                    .setExpirationDate(new GregorianCalendar(2019, 1, 1))
-                    .setUfFlag(false);
+                    .setExpirationDate(new GregorianCalendar(2019, 1, 1));
                 
                 result = patPass.initTransaction(amount, buyOrder, idSession, urlReturn, urlFinal, info);
                 
