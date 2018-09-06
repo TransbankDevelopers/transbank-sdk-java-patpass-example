@@ -1,0 +1,8 @@
+target/
+.idea/
+transbank-sdk-java-patpass-example.iml
+selenide-reports/
+.classpath
+.project
+.settings
+build
